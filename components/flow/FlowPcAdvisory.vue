@@ -138,11 +138,11 @@
               target="_blank"
               rel="noopener"
             >
-              <span :class="$style.fzMedium">{{ 
+              <span :class="$style.fzMedium">{{
                 $t(
                   '新型コロナウイルス感染症の疑いがある方を対象にした遠隔手話サービスを開始します'
-                  )
-                   }} (PDF)</span>
+                )
+              }} (PDF)</span>
               <v-icon size="18">
                 mdi-open-in-new
               </v-icon>
