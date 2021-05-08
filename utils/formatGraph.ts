@@ -34,7 +34,8 @@ export default (data: DataType[]) => {
         patSum += subTotal
         graphData.push({
           bgColor: col,
-          label: `${date.getMonth() + 1}/${date.getDate()}`,
+          label: `${date.getFullYear()}/${date.getMonth() +
+            1}/${date.getDate()}`,
           transition: subTotal,
           cumulative: patSum
         })
