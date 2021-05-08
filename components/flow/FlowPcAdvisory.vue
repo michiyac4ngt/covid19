@@ -121,6 +121,7 @@
           </div>
         </div>
       </div>
+
       <div :class="$style.AdvisoryContents">
         <div class="py-8">
           <div :class="$style.AdvisoryContentsTitle2">
@@ -142,7 +143,8 @@
                 $t(
                   '新型コロナウイルス感染症の疑いがある方を対象にした遠隔手話サービスを開始します'
                 )
-              }} (PDF)</span>
+              }}
+              (PDF)</span>
               <v-icon size="18">
                 mdi-open-in-new
               </v-icon>
