@@ -121,8 +121,7 @@ export default {
         },
         {
           title: this.$t('新潟県 新型コロナウイルス感染症について'),
-          link:
-            'https://www.pref.niigata.lg.jp/site/shingata-corona/',
+          link: 'https://www.pref.niigata.lg.jp/site/shingata-corona/',
           divider: true
         },
         {
